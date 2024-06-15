@@ -185,3 +185,53 @@ main form input + button{
     font-size: 2.4rem;
     cursor: pointer;
 }
+
+.content-listagem {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.content-listagem main {
+    width: 77rem;
+    height: 50rem;
+}
+
+.content-listagem h1 {
+    font-size: 6.4rem;
+    line-height: 7.5rem;
+}
+
+.content-listagem ul {
+    margin-left: 3rem;
+}
+.content-listagem ul li {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin-top: 2.5rem;
+    border-bottom: var(--default-border);
+    padding-bottom: 2rem;
+}
+
+.content-listagem ul li span {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+    border: 0.1rem solid hsla(181, 80%, 56%, 1);
+    border-radius: var(--default-border--radius);
+    color: hsla(181, 80%, 56%, 1);
+    padding: 0.1rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.content-listagem ul li a {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: hsla(348, 100%, 67%, 1);
+}
