@@ -187,7 +187,6 @@ main form input + button{
 }
 
 .content-listagem {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,6 +201,8 @@ main form input + button{
 .content-listagem h1 {
     font-size: 6.4rem;
     line-height: 7.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .content-listagem ul {
